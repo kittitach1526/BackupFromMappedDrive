@@ -18,8 +18,11 @@
 
 ```ini
 [BackupSettings]
-mapped_drives = Y:\\, Z:\\                      ; ไดรฟ์ที่ต้องการสำรองข้อมูล
-destination_base = C:\BackupDrive               ; โฟลเดอร์ปลายทาง
-log_file = C:\BackupDrive\backup_log.txt        ; ไฟล์ log
-max_depth = 50                                  ; ความลึกสูงสุดในการสำรอง
-max_backup_age_days = 7                         ; ลบ backup เก่ากว่า n วัน
+mapped_drives = Y:/, F:/, G:/, H:/, I:/, J:/, K:/, L:/, N:/, O:/, P:/, Q:/, R:/, S:/, T:/, U:/, V:/, W:/, X:/, Z:/
+destination_base = D:/test_backup, E:/test_backup
+log_file = C:/Users/BACKUP-MACHINE/Desktop/log_backup.txt
+max_depth = 30
+max_backup_age_days = 7
+max_threads = 12
+
+
